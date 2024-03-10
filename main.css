@@ -1,20 +1,23 @@
 body{
-    background-color: aqua;
+    background-color: rgb(64, 0, 255);
 }
-nav{
-    height: 6000px;
-    width: 200px;
-    float: left;
-    padding: 5px;
-    line-height: 30px;
+
+h1{
+    color: gold;
 }
-footer{
+
+#container {
     text-align: center;
-    margin-right: 200px;
+    margin-top: 50px;
 }
-#memeImage{
-    margin-right: 200px;
-}
-header{
-    text-align: center;
+
+#memeImage {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #be2020;
+    border-radius: 10px;
 }
