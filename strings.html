@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="UserInput.css">
 </head>
 <body>
+
+    <!--This container has the code needed for the title, first and last name inputs and the zip input-->
     <div id="container">
         <h1>Welcome To Secret Message Security!</h1>
         <form id="userInfoForm">
@@ -21,14 +23,35 @@
             <label for="zipCodeInput">Zip Code:</label>
             <input type="text" id="zipCodeInput" pattern="\d{5}" required><br><br>
 
+            <!--Submit button-->
             <button type="submit">Show Secret Message</button>
         </form>
 
+        <!--id for secret message-->
         <div id="secretMessage"></div>
     </div>
+    <div id="sound-wave">
+
+    <!-- this is to add a play and pause button-->
+        <button id="playButton">Play</button>
+        <button id="pauseButton">Pause</button>
+
+        <!--This is the id and link for the provided audio-->
+        <audio id="audioFile" src="/Users/mksedor/Downloads/News_Intro-Maximilien_-1801238420.mp3"></audio>
+
+    </div>
+
+    <!--Random emoji i chose-->
     <div id="container">
         <p>😁</p>
     </div>
+
+    <div id="memeImage">
+         <!--2 memes i found-->
+         <img src="/Users/mksedor/Downloads/flat,750x1000,075,f.jpg" alt="memeImage" style="width: 200px;">
+         <img src="/Users/mksedor/Downloads/Sad-pepe-school-memes.jpg" alt="memeImage" style="width: 200px;">
+    </div>
+
     <script src="UserInput.js"></script>
 </body>
 </html>

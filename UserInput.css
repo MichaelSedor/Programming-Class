@@ -7,8 +7,6 @@ h1{
     color: rgb(76, 69, 33);
 }
 
-
-
 #container{
     margin: 50px auto;
     padding: 20px;
@@ -17,4 +15,29 @@ h1{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 80%;
     max-width: 600px;
+}
+#memeImage{
+    display: flex;
+}
+#memeImage {
+    width: 100px;
+    height: auto;
+}
+#sound-wave {
+    width: 200px;
+    height: 50px;
+    background-color: darkgreen;
+    border-radius: 10px;
+    animation: pulse 1s infinite alternate;
+    margin: 0 auto;
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scale(1.1);
+        opacity: 1;
+    }
 }
